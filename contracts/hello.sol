@@ -11,8 +11,7 @@ contract HelloDot {
     enum status{ 
         Active,
         Inactive
-    }
-                         
+    }                   
 }
 
 /*
