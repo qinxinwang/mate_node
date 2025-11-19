@@ -15,7 +15,7 @@ contract FuncSample3{
     //immutable 部署的时候确定 存储在代码区
     uint256 public immutable IMMUTABLE_VAR;
     constructor(){
-        IMMUTABLE_VAR = 111;
+        IMMUTABLE_VAR = 1112;
     }
 
     //函数中的变量都存储在栈上
