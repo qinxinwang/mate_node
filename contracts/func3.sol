@@ -53,4 +53,12 @@ contract FuncSample3{
 
         return num1;
     }
+
+    function Test1(uint8 x, uint8 y) public pure returns (uint8){
+    //solidity会自动检查溢出 a+b> uint8.max会自动报错 如果要禁用溢出检查可以用unchecked
+        unchecked{
+            return  x + y;
+        }
+   }
+
 }
